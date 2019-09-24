@@ -15,6 +15,8 @@ Feature: My Feature
     Given simple given
     When simple when
     Then simple then
+    When simple when
+    Then simple then
 
   Scenario: Friday, is Friday22
     Given today is Friday
