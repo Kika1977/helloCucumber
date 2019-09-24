@@ -1,17 +1,17 @@
 Feature: Is it Friday yet
   Everybody wants to know when it's Friday
 
-  Scenario: Sunday; isn't Friday1
+  Scenario: Sunday; isn't Friday11
     Given today is Sunday
     When I ask whether it's Friday yet
     Then I should be told "Nope"
 
-  Scenario: Friday, is Friday2
+  Scenario: Friday, is Friday22
     Given today is Friday
     When I ask whether it's Friday yet
     Then I should be told "TGIF"
     
- Scenario: Friday| is Friday3
+ Scenario: Friday| is Friday33
     Given today is Friday
     When I ask whether it's Friday yet
     Then I should be told "TGIF"
