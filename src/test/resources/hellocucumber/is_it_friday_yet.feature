@@ -6,7 +6,7 @@ Feature: Is it Friday yet
     When I ask whether it's Friday yet
     Then I should be told "Nope"
 
-  Scenario: Friday, is Friday22
+  Scenario: Friday, is Friday222
     Given today is Friday
     When I ask whether it's Friday yet
     Then I should be told "TGIF"
