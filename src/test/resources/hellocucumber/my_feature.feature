@@ -10,11 +10,11 @@ Feature: My Feature
     Given simple given
     When simple when
     Then simple then
-
-  Scenario: SimpleScenario2
-    Given simple given
     When simple when
     Then simple then
+    
+  Scenario: SimpleScenario2
+    Given simple given
     When simple when
     Then simple then
 
